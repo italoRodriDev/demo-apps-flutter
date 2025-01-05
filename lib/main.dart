@@ -2,6 +2,7 @@ import 'package:app_portifolio/demos/c6-bank/intro_slide.page.dart';
 import 'package:app_portifolio/demos/c6-bank/splash_bank.page.dart';
 import 'package:app_portifolio/demos/day-night-picker/day_night_picker.page.dart';
 import 'package:app_portifolio/demos/nubank/splash_bank.page.dart';
+import 'package:app_portifolio/demos/premier-league/premier_league.page.dart';
 import 'package:flutter/material.dart';
 
 import 'demos/deezer/deezer.page.dart';
@@ -24,7 +25,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: DayNightPickerPage(),
+      home: PremierLeaguePage(),
     );
   }
 }
